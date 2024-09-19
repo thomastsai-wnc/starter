@@ -13,7 +13,7 @@ return {
       db_file = "./cscope.out",
       exec = "cscope",
     },
-    disable_maps = true, -- Disable default maps to set custom keymap
+    -- disable_maps = true, -- Disable default maps to set custom keymap
   },
   config = function(_, opts)
     require("cscope_maps").setup(opts)
